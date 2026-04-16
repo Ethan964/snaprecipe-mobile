@@ -32,7 +32,7 @@ const env = {
   appSlug: "snaprecipe-mobile",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663566190604/NEHB7s8v9ktG6ozoT4teRh/snaprecipe-icon-EVsa78MMuchykdGR7LB68D.png",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
@@ -86,6 +86,12 @@ const config: ExpoConfig = {
   },
   plugins: [
     "expo-router",
+    [
+      "expo-camera",
+      {
+        cameraPermission: "Allow $(PRODUCT_NAME) to access your camera so you can scan dishes.",
+      },
+    ],
     [
       "expo-audio",
       {
