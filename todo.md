@@ -18,3 +18,13 @@
 - [x] Persist onboarding state, user preferences, saved recipes, and scan data locally
 - [x] Generate and apply a custom SnapRecipe app icon and branding configuration
 - [x] Run validation checks, fix issues, and prepare final checkpoint
+- [x] Prepare fast launch plan with release sequencing and go-to-market timeline
+- [x] Assemble App Store and Google Play release requirements and submission checklist
+- [x] Draft store listing copy, metadata, privacy, pricing, and support materials
+- [x] Build realistic first-90-day engagement and profit forecast with explicit assumptions
+- [x] Choose the cheapest release scope: Android-only first or Android-plus-iOS soft launch
+- [x] Set the minimum launch budget and fixed cost ceiling for the first 90 days
+- [x] Prepare the cheapest store submission path and release checklist
+- [x] Draft simple step-by-step instructions for low-cost launch and early operations
+- [x] Add a deployment README covering Android release, payment setup, low-cost cloud, and advertising
+- [ ] Save an updated project checkpoint for repository handoff
